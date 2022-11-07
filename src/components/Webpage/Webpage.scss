@@ -1,0 +1,31 @@
+.trades-container {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(40%);
+    .time-update-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+        span {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+    }
+
+    .order-book-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .bid-wrapper,
+        .ask-wrapper {
+            width: 32vw;
+        }
+        .total-number {
+            line-height: 3rem;
+        }
+    }
+    .total-number {
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+}
